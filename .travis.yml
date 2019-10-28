@@ -1,8 +1,11 @@
+language: java
+
 addons:
   sonarcloud:
     organization: "elpendex123"
     token:
-      secure: "e87eea4de7fe1a26d36086848da11147ddde70d0" # encrypted value of your token
+#      secure: "e87eea4de7fe1a26d36086848da11147ddde70d0" # encrypted value of your token
+      secure: "ANMniX142Ev8J3f+4vo/H3xNIXDnor442fqlLln0gwgCggbqPHpj0BkXpVV5jaPtuxjLxSwmKxk8QIfIMhf9O4/RNx3bbVsZFsYJXkVGjY28trekw5WISPlBIjckbu4Wlz33isYTcnMixqtSMvoXfbrPs7HmQAu8QJ/5+oR4zpuJ8jCdwvZz/lvZsb5bo7jFAgFhhy8vykTHcQ8fLhk2QcJFxQLwiMoT7HvkeqXznxI2I+TnP21w4ZU9p/4XI+Y8D9dmuiwaHE4SpRKEQacExNbg/66xsRmB8t8rbv047O1SoY/vrCY6PnGG7tjwNo06jnVDA1rCcackWP/WlKodORl/+QuLYcaBrWLZDOpDHrTvQ3gB34uREELoNR2e3BQB7TGRpxj7uoUGHU4R6MESpc6bhZr+Tmg/1HYbvMvWWchKkF476PMSvzQc8RkaP+ccdmh39xuCTPhe0Yeac5hZyRcLCjeDqLKjWVlL4fyYwLFdSfQVflOqU/K2luPBB4KzqYCLHZkyVAfna0GCuhUa5u1Ti4paMzf43kV90AG3COisJCQ2rR/3tGATZtUq7VJs8ZuVxIGZSdZeZmk4MpSo2f6u+32egNdZCQreIP10ZzOqPppNdS6ijZGisK4GyWBEr5WqbcfmeOHz0uzSBlTr4sFw1T3PLGfjnGNCypGoEA4="
 
 script:
   - ./gradlew sonarqube
