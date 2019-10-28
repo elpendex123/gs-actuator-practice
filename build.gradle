@@ -34,6 +34,6 @@ sonarqube {
 	properties {
 		property "sonar.projectName", "Java Gradle-based project analyzed on SonarCloud using Travis"
 //		property "sonar.projectKey", "elpendex123_gs-actuator-practice"
-		property "sonar.projectKey", "elpendex123"
+//		property "sonar.projectKey", "elpendex123"
 	}
 }
