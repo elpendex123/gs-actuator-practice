@@ -3,8 +3,8 @@ addons:
   sonarcloud:
     organization: "elpendex123_gs-actuator-practice"
     token:
-      secure: "f4bfd13db8b20513050625ffe8eb53b2dc85a4e4" # encrypted value of your token
-#      secure: "NanLAHa0dUj3uorZdqWCzahFw7CfJC2PV9nb8ScldMkJhxLcg/UXcZ+3KIJqR/GEsFYHVqD/FyRuspk4HfKnDk3q23PLGXq6+ELBh/kBcBsdEEK34f101NUBGyJ7Az0CDFRHSa/9MOodfG91UbmpzYQslKtrM7NTA9H86m52vsFTAvQVtAJ/vc2AFW2pBjVSTwvvXY2j4HLuQaGEoX3z5QNqCRnIr+agEyuFdLfe/xulhztVenXzhiQCXYr0OMnQQFI/YjTkCk4U9X9yOBRv7C690XBo8f7fS9RbzslFcfy/0qTZBMcxr+RcBt55S7TdZvuL67y1oqc81lCaIVUSSBlTctM8gFfCd9r9SHg5TddVbPesv6CQZZ0uMe3c4QzPMr+gPhagdn2MvUPnp1zw7g+QxO6hSmFBTPVqBbk9kQagF+LiPNDxjCUZcKhtWR8aJ+Amwv/Pp3BcgJxl6o3iDtkNmwcmwry3+Wi2cx/2NZzS8Hi9b+nHJmMpLclPKsmkFpkYMX1su5/rBbV50o4GBc98E3RV328jIo9dZK/9OMZKEKx5NiiI8E+RpTI4EW0C+icHy1OFHcGSiz/J3fgeXTuw6uq94qlDCD58DvxbsWVbVbYQnDTRyIfnlAVvwwpKQzr9dulRoRpW2fIBdjj3WP/3vgtXEhokTSRQQigy81Y="
+#      secure: "f4bfd13db8b20513050625ffe8eb53b2dc85a4e4" # encrypted value of your token
+      secure: "NanLAHa0dUj3uorZdqWCzahFw7CfJC2PV9nb8ScldMkJhxLcg/UXcZ+3KIJqR/GEsFYHVqD/FyRuspk4HfKnDk3q23PLGXq6+ELBh/kBcBsdEEK34f101NUBGyJ7Az0CDFRHSa/9MOodfG91UbmpzYQslKtrM7NTA9H86m52vsFTAvQVtAJ/vc2AFW2pBjVSTwvvXY2j4HLuQaGEoX3z5QNqCRnIr+agEyuFdLfe/xulhztVenXzhiQCXYr0OMnQQFI/YjTkCk4U9X9yOBRv7C690XBo8f7fS9RbzslFcfy/0qTZBMcxr+RcBt55S7TdZvuL67y1oqc81lCaIVUSSBlTctM8gFfCd9r9SHg5TddVbPesv6CQZZ0uMe3c4QzPMr+gPhagdn2MvUPnp1zw7g+QxO6hSmFBTPVqBbk9kQagF+LiPNDxjCUZcKhtWR8aJ+Amwv/Pp3BcgJxl6o3iDtkNmwcmwry3+Wi2cx/2NZzS8Hi9b+nHJmMpLclPKsmkFpkYMX1su5/rBbV50o4GBc98E3RV328jIo9dZK/9OMZKEKx5NiiI8E+RpTI4EW0C+icHy1OFHcGSiz/J3fgeXTuw6uq94qlDCD58DvxbsWVbVbYQnDTRyIfnlAVvwwpKQzr9dulRoRpW2fIBdjj3WP/3vgtXEhokTSRQQigy81Y="
     branches:
       - master
     password:
