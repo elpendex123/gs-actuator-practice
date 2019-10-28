@@ -28,3 +28,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
+plugins {
+	id "org.sonarqube" version "2.7.1"
+}
+
+sonarqube {
+	properties {
+		property "sonar.projectName", "Java Gradle-based project analyzed on SonarCloud using Travis"
+		property "sonar.projectKey", "elpendex123_gs-actuator-practice"
+	}
+}
